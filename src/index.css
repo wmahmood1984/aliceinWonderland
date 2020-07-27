@@ -1,0 +1,18 @@
+.frame {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding: 0 10px;
+  width: 300px;
+  height: 150px;
+  border: 1px solid #ccc;
+}
+.target {
+    position: absolute;
+    top: calc(50% - 15px);
+    width: 30px;
+    height: 30px;
+    background: #000;
+  }
+.target-base {
+    opacity: 0.25;
+  }
